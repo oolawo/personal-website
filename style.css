@@ -1,24 +1,68 @@
 html{
-  margin: 16px;
+  margin: 0px;
 }
 
 body{
-  font-family:'Courier New', Courier, monospace
-max-width: 50cm;
-margin: auto;
+background: #548AEA;
 text-align: center;
-border: 4px solid #f2c307;
-padding: 12px;
-box-shadow: 4px 4px #000000;
 }
 
-img{ 
-  height: 110px;
-  width: 150px;
-  border-radius: 50%;
+h1{
+	text-align: center;
+	font-family: Helvetica,"Helvetica Neue",Arial,"Lucida Grande",sans-serif;
+	font-size: 60px;
+	position: absolute;
+	top: -50px; left: 0px;
 }
 
-.dark{
+.projects{
+	position: absolute;
+	bottom: 0px; left: 40px;
+}
+.resume{
+	position: absolute;
+	bottom: 0px; left: 360px;
+	padding: 0px;
+}
+
+.linkedIn{
+	position: absolute;
+	bottom: 0px; left: 660px;
+	padding: 0px;
+}
+
+.github{
+	position: absolute;
+	bottom: 0px; left: 960px;
+	padding: 0px;
+}
+
+.vibes{
+	position: absolute;
+	bottom: 0px; left: 1260px;
+	padding: 0px;
+}
+
+img{
+	bottom: 50px;
+}
+
+a{
+	font-family: Helvetica,"Helvetica Neue",Arial,"Lucida Grande",sans-serif;
+	font-size: 40px;
+	text-decoration: none;
+	color: black;
+}
+
+
+p{
+	font-family: Helvetica,"Helvetica Neue",Arial,"Lucida Grande";
+	text-anchor: bottom;
+	text-align: center;
+
+}
+
+/*.dark{
   color: white;
   background: black;
-}
+}*/
